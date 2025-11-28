@@ -7,7 +7,8 @@ const button_styles = StyleSheet.create({
         width: "100%",
         borderRadius: 8,
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        marginTop: 10
     },
     title: {
         color: "#FFF",
