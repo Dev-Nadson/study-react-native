@@ -1,10 +1,12 @@
 import { StyleSheet } from "react-native"
 
-const styles = StyleSheet.create({
+const home_styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "#d0d2d8",
+        paddingTop: 62,
+        padding: 24
     },
     image: {
         height: 34,
@@ -17,4 +19,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export { styles }
+export { home_styles }
